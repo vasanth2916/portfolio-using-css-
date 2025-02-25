@@ -1,0 +1,141 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+#hero {
+    background: #38993d;
+    color: white;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+#hero p {
+    font-size: 1.5rem;
+}
+
+#about {
+    background: #f3f3f2;
+    padding: 3rem;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#about p {
+    font-size: 1.2rem;
+}
+
+#skills {
+    padding: 3rem;
+    text-align: center;
+}
+
+#skills h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#skills ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+#skills ul li {
+    font-size: 1.2rem;
+}
+
+#education {
+    background: #f4f5f2;
+    padding: 3rem;
+    text-align: center;
+}
+
+#education h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.education {
+    background: rgb(233, 230, 156);
+    border: 1px solid #131212;
+    padding: 1rem;
+    margin: 1rem 0;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+#education h3 {
+    font-size: 1.5rem;
+}
+
+.education-card p {
+    font-size: 1rem;
+}
+
+#contact {
+    padding: 3rem;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#contact p {
+    font-size: 1.2rem;
+}
+
+footer {
+    background-color: #333;
+    color: rgb(224, 228, 214);
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
